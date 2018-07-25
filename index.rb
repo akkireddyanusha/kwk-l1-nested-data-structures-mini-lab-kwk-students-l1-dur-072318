@@ -6,6 +6,7 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
+sandwich_request (ingredients, ["rye","tofu", "cheddar"])
 def sandwich_request(ingredients, order) 
   # your code here!
 end
@@ -36,4 +37,6 @@ cities = {
 
 def city_populations(cities)
   # your code here!
+  puts "cities : # {new_york population}"
+  puts "cities : # {miami website}"
 end
